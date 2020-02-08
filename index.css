@@ -1,0 +1,134 @@
+body{
+    background-size: cover;
+    font-family: 'Cursive', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    animation: animate 16s ease-in-out infinite;
+}
+.main_menu{
+    width: 300px;
+    position: relative;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url(images/bgmain1.jpg);    
+    }
+    25%{
+        background-image: url(images/bgmain2.jpg);
+    }
+    50%{
+        background-image: url(images/bgmain3.jpg);
+    }
+    75%{
+        background-image: url(images/bgmain4.jpg);
+    }
+    
+}
+.logo_main{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    content: "";
+    margin-left: -80px;
+}
+.inner_main_menu{
+    margin: 0 auto;
+    width: 1200px;
+    margin-right: 100px;
+}
+.inner_main_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.inner_main_menu ul li{
+    float: none;
+    display: inline-block;
+    
+}
+.inner_main_menu ul li a{
+    color: #ffff00;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+.inner_main_menu ul li a:hover{
+    color: darkorange;
+}
+.redirect_form{
+    width: 300px;
+    position: absolute;
+}
+.all_form{
+    margin: 400px 0 -150px 0;;
+    width: 1100px;
+    margin-left: 100px;
+}
+.all_form ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.all_form ul li{
+    float: none;
+    display: inline-block;
+}
+.all_form ul li div{
+    padding: 0 40px 0 40px;
+}
+.admin_form{
+    background-color: white;
+    height: 90px;
+}
+.admin_form h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #ffac12;
+}
+.admin_form a:hover{
+    color: #08c255;
+}
+.college_form{
+    background-color: white;
+    height: 90px;
+}
+.college_form h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #98c904;
+}
+.college_form a:hover{
+    color: #08c255;
+}
+.mentor_form{
+    background-color: white;
+    height: 90px;
+}
+.mentor_form h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #8a2cd1;
+}
+.mentor_form a:hover{
+    color: #08c255;
+}
+.std_form{
+    background-color: white;
+    height: 90px;
+}
+.std_form h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #24e3bd;
+}
+.std_form a:hover{
+    color: #08c255;
+}
